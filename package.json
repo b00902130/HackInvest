@@ -1,0 +1,34 @@
+{
+  "name": "HackInvest",
+  "version": "0.0.0",
+  "description": "PML JJ is big",
+  "main": "app.js",
+  "scripts": {
+    "test": "NTU"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/b00902130/HackInvest.git"
+  },
+  "keywords": [
+    "PML"
+  ],
+  "author": "Wilson an PML",
+  "license": "NTU",
+  "bugs": {
+    "url": "https://github.com/b00902130/HackInvest/issues"
+  },
+  "homepage": "https://github.com/b00902130/HackInvest",
+  "dependencies": {
+    "express": "^3.9.0",
+    "ejs": "^1.0.0",
+    "mongodb": "^1.4.22",
+    "cookie-parser": "^1.3.3",
+    "body-parser": "^1.9.3",
+    "morgan": "^1.5.0",
+    "static-favicon": "^2.0.0-alpha"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
