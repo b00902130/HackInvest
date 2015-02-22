@@ -21,6 +21,7 @@
 		DF1807691A99391E0014A928 /* StockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1807681A99391E0014A928 /* StockDetailViewController.m */; };
 		DF18076C1A9939510014A928 /* DealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF18076B1A9939510014A928 /* DealViewController.m */; };
 		DF18076F1A9939860014A928 /* StockTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF18076E1A9939860014A928 /* StockTableViewCell.m */; };
+		DFE08DA31A99691400A489A3 /* MarketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE08DA21A99691400A489A3 /* MarketTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		DF18076B1A9939510014A928 /* DealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealViewController.m; sourceTree = "<group>"; };
 		DF18076D1A9939860014A928 /* StockTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockTableViewCell.h; sourceTree = "<group>"; };
 		DF18076E1A9939860014A928 /* StockTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockTableViewCell.m; sourceTree = "<group>"; };
+		DFE08DA11A99691400A489A3 /* MarketTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketTableViewCell.h; sourceTree = "<group>"; };
+		DFE08DA21A99691400A489A3 /* MarketTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				DF1807611A9938800014A928 /* SettingViewController.h */,
 				DF1807621A9938800014A928 /* SettingViewController.m */,
 				DF1807361A99356B0014A928 /* Main.storyboard */,
+				DFE08DA11A99691400A489A3 /* MarketTableViewCell.h */,
+				DFE08DA21A99691400A489A3 /* MarketTableViewCell.m */,
 				DF1807391A99356B0014A928 /* Images.xcassets */,
 				DF18073B1A99356B0014A928 /* LaunchScreen.xib */,
 				DF1807291A99356B0014A928 /* Supporting Files */,
@@ -257,6 +262,7 @@
 				DF1807601A9938660014A928 /* PortfolioViewController.m in Sources */,
 				DF1807571A9938020014A928 /* MarketViewController.m in Sources */,
 				DF18076F1A9939860014A928 /* StockTableViewCell.m in Sources */,
+				DFE08DA31A99691400A489A3 /* MarketTableViewCell.m in Sources */,
 				DF18072F1A99356B0014A928 /* AppDelegate.m in Sources */,
 				DF18075D1A99384C0014A928 /* HistoryViewController.m in Sources */,
 				DF1807691A99391E0014A928 /* StockDetailViewController.m in Sources */,
@@ -454,6 +460,7 @@
 				DF18074E1A99356B0014A928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF18074F1A99356B0014A928 /* Build configuration list for PBXNativeTarget "HackInvestTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				DF1807511A99356B0014A928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
